@@ -10,4 +10,4 @@ for (int i = 0; i < array.Length; i++)
     int n = Convert.ToInt32(Console.ReadLine());
     array[i] = n;
 }
-Console.Write($"[{string.Join(", ", array)}]");
+Console.Write($"\nСформирован массив: [{string.Join(", ", array)}]");
